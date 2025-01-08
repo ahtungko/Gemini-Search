@@ -22,7 +22,7 @@ export function Home() {
         <div className="flex flex-col items-center mb-8">
           <Logo className="mb-6" />
           <h1 className="text-2xl lg:text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-200">
-            What do you want to know?
+            Hi, how can I help you?
           </h1>
         </div>
         
@@ -58,9 +58,6 @@ export function Home() {
 
         <div className="mt-8 text-center text-sm text-gray-500 dark:text-gray-400 animate-fade-in space-y-1">
           <div>Powered by Gemini 2.0</div>
-          <div>
-            Created by <a href="http://x.com/ammaar" target="_blank" rel="noopener noreferrer" className="hover:text-gray-800 dark:hover:text-gray-300 transition-colors">@ammaar</a>
-          </div>
         </div>
       </div>
     </div>
